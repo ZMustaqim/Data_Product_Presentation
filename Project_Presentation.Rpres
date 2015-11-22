@@ -1,0 +1,57 @@
+Economic Damage Impact by Weather Condition in the U.S.
+========================================================
+author: ZMustaqim
+date: 22 Nov 2015
+transition : rotate
+
+Synopsis:
+========================================================
+
+This presentation is to highlight about my application whuch attempts to analyze data of natural events from the U.S.National Oceanic and Atmospheric Administration's (NOAA) storm database which had the impact from economy perspective. 
+
+With storm database, data processing and analyzing done to see the impact trending and the result show in yearly trending.
+
+
+
+Using the Application:
+==========
+
+In order to see yearly trend, input need to be set at first place:
+
+- Yearly input via slider widget
+- Event input via checkboxes
+
+![alt text](Project_Presentation-figure/slider.png)
+
+*** 
+
+Dataset used:
+```{r}
+dt<-read.csv("data123.csv")
+summary(dt)
+```
+
+
+
+Result of Application:
+========================================================
+
+Base on the input selection, we can see 2 yearly trending which are:
+
+- Total Damage by year
+![alt text](Project_Presentation-figure/impact.png) 
+
+***
+
+- Total Event happen by year
+![alt text](Project_Presentation-figure/event.png) 
+
+
+Benefit
+========================================================
+
+
+
+With this application, user can simply identified the impact trending of the event by years. 
+
+THANK YOU..
